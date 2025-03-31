@@ -1,0 +1,81 @@
+
+.HR-dashboard-wrapper{
+  width: 78%;
+  position: absolute;
+  left: 20%;
+  top: 12%;
+  height: 100vh;
+  
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+.HR-dashboard-wrapper .titleE{
+
+  font-size: 22px ;
+}
+.HR-dashboard-wrapper .breadcrumb .breadcrumb-link .home-icon{
+  color: #000;
+}
+.HR-dashboard-wrapper .breadcrumb .breadcrumb-link{
+  color: #0000006e;
+}
+
+.HR-dashboard-wrapper .emp-info-box {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.668);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.HR-dashboard-wrapper .emp-info-box:hover {
+  transform: translateY(-5px);
+  background: rgb(0,116,255);
+  background: linear-gradient(270deg, rgba(0,116,255,1) 11%, rgba(22,150,253,1) 35%, rgba(39,138,250,1) 80%);
+  color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.HR-dashboard-wrapper .emp-info-box .img-wrapper{
+  margin: 0 10px;
+}
+
+.HR-dashboard-wrapper .emp-info-box .img-wrapper img{
+  border: 1px solid rgba(0, 0, 0, 0.407);
+
+}
+
+.HR-dashboard-wrapper .emp-info-box .info-wrapper h5{
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 22px;
+}
+.HR-dashboard-wrapper .emp-info-box .info-wrapper p{
+  margin: 10px 0; 
+}
+
+
+/* .c1{
+    display: flex;
+    gap: 20px;
+    border: 2px solid hsla(0, 7%, 86%, 0.635);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px hsla(0, 0%, 50%, 0.37);
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 20px;
+    background-color: white;
+}*/
+
+img{
+    border-radius: 100px;
+} 
+

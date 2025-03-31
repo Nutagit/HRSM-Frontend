@@ -1,0 +1,62 @@
+.payslip-wrap{
+    position: absolute;
+    left: 21%;
+    top: 12%;
+}
+
+.payslip-wrap .page-title{
+    color: blue;
+}
+.payslip-wrap .header-container{
+    margin-top: 15px;
+}
+.payslip-wrap .header-container .header-right-left .homeicon-document{
+    display: flex;
+    gap: 10px;
+}
+.payslip-wrap .header-container .header-right-left{
+    display: flex;
+    justify-content: space-between;
+}
+.payslip-wrap .header-container .header-right-left .download-btn{
+    background: linear-gradient(to left, #673AB7 0%, #2196F3 100%);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+.payslip-wrap .container{
+    margin-top: 20px;
+    /* background-color: white; */
+    width: 1100px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.171);
+    /* height: 690px; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.627);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+   
+}
+.payslip-wrap .container .emp-payslip{
+    padding: 20px;
+    text-align: center;
+
+   
+}
+.payslip-wrap .container .row{
+    padding: 10px;
+   
+    border-bottom:2px solid rgba(0, 0, 0, 0.171) ;
+}
+.payslip-wrap .container .bill-address{
+    padding: 10px;
+}
+
+.payslip-wrap .container .row .col-md-10 .red-text{
+color: red;
+}

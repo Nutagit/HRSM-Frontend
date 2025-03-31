@@ -1,0 +1,209 @@
+.maindiv
+{
+  width: 78%;
+  /* margin-top: 10px; */
+  position: absolute;
+  left: 20%;
+  top: 12%;
+}
+
+
+.maindiv .button-wrapper1 .titleE{
+    font-size: 28px !important; 
+}
+
+  /* Right Section: Buttons */
+.maindiv  .button-wrapper1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+.maindiv .button-wrapper1 .add-employee-btn {
+  width: 180px;
+  height: 38px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to left, #673AB7 0%, #2196F3 100%);
+
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+  
+.maindiv .button-wrapper1 .add-employee-btn .icon {
+  margin: 0 5px;
+    font-size: 18px;
+  }
+/* Export Button */
+.maindiv .button-wrapper1 .export-btn {
+  width: 110px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  background: white !important;
+  border: 1px solid rgba(0, 0, 0, 0.236);
+  color: #000000 !important;
+  text-transform: capitalize;
+  /* padding: 8px 15px; */
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.maindiv .button-wrapper1 .export-btn .icon {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.maindiv .button-wrapper1 .export-btn .expand-icon {
+  font-size:25px;
+  margin: 0 5px;
+  padding-right: 5px;
+}
+
+.maindiv .breadcrumb {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+  }
+  
+.maindiv  .breadcrumb li {
+    display: flex;
+    align-items: center;
+  }
+  
+.maindiv  .breadcrumb li .breadcrumb-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.396);
+    font-size: 14px;
+  }
+  
+.maindiv .breadcrumb li .breadcrumb-link:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+.maindiv .breadcrumb .breadcrumb-separator {
+    margin: 0 5px;
+    color: black;
+  }
+  
+.maindiv .breadcrumb .breadcrumb-current {
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+
+  }
+  
+  .maindiv .breadcrumb li .home-icon {
+    font-size: 18px;
+    color: black;
+  }
+  
+  .maindiv .infoE{
+    width: 100%;
+  }
+.maindiv .infoE .employee-stats {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.maindiv .infoE .stat-card {
+  width: 280px;
+height: 85px;
+border: 1px solid rgba(0, 0, 0, 0.17);
+  display: flex;
+  align-items: center;
+  /* background: #fff; */
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.627);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.maindiv .infoE .icon1 {
+  margin-right: 10px;
+}
+  
+  /* Title and Count */
+  .maindiv .infoE .stat-card h4 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 0 !important;
+    color: #000000;
+  }
+  
+  .maindiv .infoE .stat-card  .ptag {
+    font-size: 20px ;
+    font-weight: 700;
+    margin: 0 10px;
+    color: #000000;
+  }
+  
+ .maindiv .emp-list-contrainer {
+    width: 100%;
+    /* background: white; */
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    padding: 15px 0;
+    background: rgba(255, 255, 255, 0.627);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Filters Section */
+  .maindiv .emp-list-contrainer .emp-filters {
+    width: 98%;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+  }
+    
+
+  .maindiv .emp-list-contrainer .emp-table{
+    width: 100%;
+    background-color: transparent;
+  }
+  .maindiv .emp-list-contrainer .emp-table table{
+    width: 100%;
+  }
+
+  .table>:not(caption)>*>*{
+    background-color: transparent !important;
+  }
+.maindiv .emp-list-contrainer .emp-table table tbody tr td .emp-title{
+  color: #000 !important;
+}
+
+.maindiv .emp-list-contrainer .emp-table table th{
+  padding-left: 15px;
+  border: none;
+  /* background-color: #e5e7eb !important; */
+}
+
+.maindiv .emp-list-contrainer .emp-table table td{
+  padding-left: 15px;
+}
+
+
+
+.maindiv .emp-list-contrainer .emp-table th{
+  height: 30px !important;
+}
+
+.maindiv .emp-list-contrainer .emp-table table tbody tr{
+  height: 30px !important;
+}
