@@ -9,7 +9,7 @@ import Employee from './assets/Component/Employee/EmployeeList/Employee'
 import Verify from './assets/Component/Registe/Verify'
 import ResetPassword from './assets/Component/Login/ResetPassword'
 import NewPassword from './assets/Component/Login/NewPassword'
-import HrDashboard from './assets/Component/Dashboard/HRDashboard/hrDashboard'
+// import HrDashboard from './assets/Component/Dashboard/HRDashboard/hrDashboard'
 import EmployeeDetails from './assets/Component/Employee/Employee Details/EmployeeDetails'
 import Document from './assets/Component/Pages/Document/Document'
 import HRLeave from './assets/Component/Pages/Leave/HRLeave/HRLeave'
@@ -26,6 +26,7 @@ import Payroll from './assets/Component/Pages/Salary/Payroll/Payroll'
 import KonwledgeBase from './assets/Component/Pages/Support/KnowledgeBase'
 import Users from './assets/Component/Pages/User Mangement/Users/Users'
 import { AttendanceProvider } from './assets/Component/Pages/Attendance/AttendanceProvider'
+import HrDashboard from './assets/Component/Dashboard/HRDashboard/HrDashboard'
 
 function App() {
 
